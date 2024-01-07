@@ -25,7 +25,7 @@ function log() {
     			<button class="btn1">
                     Log in
     			</button> &nbsp; 
-          <h4 className='second'>Don't have an account? </h4><a href=''><h4 className='third' > Join Us now</h4></a>
+          <h4 className='second'>Don't have an account? </h4><a href='/Admin'><h4 className='third' > Join Us now</h4></a>
     			<div className='btns flex-d'>
           <button  class="btn2"> <a href='/SignUp'>Register </a></button>
           <button   class="btn3"><a href='/lawyer-sign'>Join as lawyer</a></button></div>

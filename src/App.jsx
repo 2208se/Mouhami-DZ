@@ -12,6 +12,8 @@ import A from "./pages/Lawyers.jsx";
 import  B from "./pages/Notifications.jsx";
 import Ab from "./pages/Schedule.jsx";
 import Abc from "./pages/landing(lawyer).jsx";
+import Admin from "./pages/Admin.jsx";
+import Waiting from "./pages/Admin2.jsx";
 function App() {
   return (
     <div className="App">
@@ -31,6 +33,8 @@ function App() {
             <Route path="/Notifications" element={<B/>}/>
             <Route path="/Scheduler" element={<Ab/>}/>
             <Route path="/lawyer" element={<Abc/>}/>
+            <Route path="/Admin" element={<Admin/>}/>
+            <Route path="/Waiting-list" element={<Waiting/>}/>
         </Routes>
     </div>
   );
